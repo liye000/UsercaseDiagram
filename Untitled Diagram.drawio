@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T05:38:25.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="xnNRB7-_Urj5I3AAwCYJ" version="13.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-23T06:57:28.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="jJ0dyESZOGYtMygwB1P7" version="13.8.1" type="github" pages="2">
   <diagram id="pge6c_i3vnnhtlQxKaaH" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,8 +10,55 @@
         <mxCell id="gF4mKuRGIbiZNYIPUrx6-2" value="Maintainer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
           <mxGeometry x="100" y="170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vUDQIOz9sXRWOuTiIPQc-0" value="Maintain product information" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
-          <mxGeometry x="240" y="160" width="120" height="80" as="geometry" />
+        <mxCell id="O0ty6iD28rHImAJUbicx-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gF4mKuRGIbiZNYIPUrx6-1" source="vUDQIOz9sXRWOuTiIPQc-0" target="O0ty6iD28rHImAJUbicx-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-2" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O0ty6iD28rHImAJUbicx-1">
+          <mxGeometry x="-0.2027" y="2" relative="1" as="geometry">
+            <mxPoint y="-7.16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-5" value="include" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="gF4mKuRGIbiZNYIPUrx6-1" source="vUDQIOz9sXRWOuTiIPQc-0" target="O0ty6iD28rHImAJUbicx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-7" value="include" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="gF4mKuRGIbiZNYIPUrx6-1" source="vUDQIOz9sXRWOuTiIPQc-0" target="O0ty6iD28rHImAJUbicx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vUDQIOz9sXRWOuTiIPQc-0" value="Select maintain product and then create product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
+          <mxGeometry x="270" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-0" value="Update product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
+          <mxGeometry x="440" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-3" value="Delete product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
+          <mxGeometry x="450" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-6" value="ProductExists" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
+          <mxGeometry x="450" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-8" value="Product Not Exists" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
+          <mxGeometry x="620" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-9" value="Outstanding Purchase Order during Product Deletion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
+          <mxGeometry x="445" y="300" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-11" value="include" style="endArrow=classic;html=1;dashed=1;exitX=0.692;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gF4mKuRGIbiZNYIPUrx6-1" target="O0ty6iD28rHImAJUbicx-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.99999999999994" y="248" as="sourcePoint" />
+            <mxPoint x="406.96" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-12" value="" style="endArrow=classic;html=1;dashed=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="gF4mKuRGIbiZNYIPUrx6-1" source="O0ty6iD28rHImAJUbicx-0" target="O0ty6iD28rHImAJUbicx-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="120" as="sourcePoint" />
+            <mxPoint x="636.96" y="202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O0ty6iD28rHImAJUbicx-13" value="" style="endArrow=classic;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gF4mKuRGIbiZNYIPUrx6-1" source="O0ty6iD28rHImAJUbicx-3" target="O0ty6iD28rHImAJUbicx-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552.4264068711927" y="135.85786437626894" as="sourcePoint" />
+            <mxPoint x="641.8738332452299" y="158.05627978348775" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
