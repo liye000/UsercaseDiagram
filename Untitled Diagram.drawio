@@ -1,5 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T05:37:03.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="xD88f8GWBKAo6KYWGhNr" version="13.8.1" type="github" pages="2">
-  <diagram id="X73RB9Mnm_2X-blTE4Mi" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-10-23T05:38:25.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="xnNRB7-_Urj5I3AAwCYJ" version="13.8.1" type="github" pages="2">
+  <diagram id="pge6c_i3vnnhtlQxKaaH" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="gF4mKuRGIbiZNYIPUrx6-0" />
+        <mxCell id="gF4mKuRGIbiZNYIPUrx6-1" parent="gF4mKuRGIbiZNYIPUrx6-0" />
+        <mxCell id="vUDQIOz9sXRWOuTiIPQc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gF4mKuRGIbiZNYIPUrx6-1" source="gF4mKuRGIbiZNYIPUrx6-2" target="vUDQIOz9sXRWOuTiIPQc-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF4mKuRGIbiZNYIPUrx6-2" value="Maintainer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
+          <mxGeometry x="100" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vUDQIOz9sXRWOuTiIPQc-0" value="Maintain product information" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
+          <mxGeometry x="240" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="X73RB9Mnm_2X-blTE4Mi" name="Page-2">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -51,17 +68,6 @@
         </mxCell>
         <mxCell id="cF-mfnSq9Cd7_4XBdeV5-18" value="include" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="180" width="40" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="pge6c_i3vnnhtlQxKaaH" name="Page-2">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="gF4mKuRGIbiZNYIPUrx6-0" />
-        <mxCell id="gF4mKuRGIbiZNYIPUrx6-1" parent="gF4mKuRGIbiZNYIPUrx6-0" />
-        <mxCell id="gF4mKuRGIbiZNYIPUrx6-2" value="Maintainer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="gF4mKuRGIbiZNYIPUrx6-1">
-          <mxGeometry x="100" y="170" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
